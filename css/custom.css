@@ -1,0 +1,34 @@
+.my-menu{
+    height: 100px;
+    background-color: #fff;
+    position: relative; }
+
+
+.logo img{
+
+   max-width: 230px;
+  display: block; }
+
+.page_header{
+  height: 120px;
+}
+
+ul.mainmenu.nav.sf-menu.sf-js-enabled.sf-arrows {
+    margin-top: 19px;
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 600px) {
+.header_white{height: 70px;}
+  .page_header{
+    height: 70px;
+  }
+  .intro_section .nav-container{
+    display: none;
+  }
+  .logo img{
+
+     max-width: 130px;
+    display: block; }
+
+}

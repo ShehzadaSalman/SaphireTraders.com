@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+
+
+<head>
+	<title>Saphire Traders</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/imageGallery.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="">
+				<div class="form-group bottommargin_0">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+						id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<section
+				class="page_topline ds table_section table_section_sm section_padding_top_5 section_padding_bottom_5">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 text-center text-sm-left">
+							<div class="small-text">
+								<span class="grey inline-block rightpadding_5">Text, Call, or Email</span>
+								<span class="divided-content greylinks">
+									<span>
+										<span>123-456-7890</span>
+									</span>
+									<span>
+										<a href="#">info@grapixpro.com</a>
+									</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-sm-4 text-center text-sm-right">
+							<a class="social-icon color-icon soc-facebook" href="#" title="Facebook"></a>
+							<a class="social-icon color-icon soc-twitter" href="#" title="Twitter"></a>
+							<a class="social-icon color-icon soc-google" href="#" title="Twitter"></a>
+							<a class="social-icon color-icon soc-linkedin" href="#" title="Twitter"></a>
+							<a class="social-icon color-icon soc-youtube" href="#" title="Youtube"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--  New menu starts here -->
+			<!-- <header class="my-menu">
+          <div class="container">
+          	<div class="row">
+              <img src="images/picture23.png" >
+		      	</div>
+          </div>
+				</header> -->
+			<!-- menu ends here -->
+
+			<header class="page_header header_white  section_padding_20">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell">
+								<a href="index.html" class="logo top_logo">
+									<img src="images/Picture23.png" alt="">
+								</a>
+							</div>
+
+							<div class="header_mainmenu display_table_cell text-right">
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active">
+											<a href="#home">Home</a>
+										</li>
+
+										<li>
+											<a href="#aboutus">About Us</a>
+
+										</li>
+										<li>
+											<a href="#products">Products</a>
+
+										</li>
+
+
+										<li>
+											<a href="#gallery">Gallery</a>
+										</li>
+										<li>
+											<a href="#contactus">Contact Us</a>
+										</li>
+
+									</ul>
+								</nav>
+								<span style="" class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="ls ms search_form_wrapper hidden-xs hidden-sm">
+					<div class="container">
+						<div class="row columns_margin_top_20 columns_margin_bottom_20">
+							<div class="col-sm-12">
+
+								<div class="widget_search">
+									<form method="get" class="searchform" action="">
+										<div class="form-group margin_0">
+											<label class="sr-only" for="headeer-widget-search">Search for:</label>
+											<input id="headeer-widget-search" type="text" value="" name="search"
+												class="form-control" placeholder="Type search keyword here">
+										</div>
+										<button type="submit" class="theme_button">Search</button>
+									</form>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section id="home" class="intro_section page_mainslider ds">
+				<div class="flexslider vertical-nav" data-dots="true" data-nav="false">
+					<ul class="slides">
+
+						<li>
+							<!-- <div class="video-wrapper">
+								<video src="thirdvideo.mp4" autoplay loop></video>
+							</div> -->
+
+							<img src="images/salt-gallery/3-wide.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h4 class="text-uppercase">
+														Quality & Hardwork
+													</h4>
+												</div>
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h2 class="text-uppercase thin">
+														We are Leaders
+														<br> in the Industry
+													</h2>
+												</div>
+												<!-- <div class="intro-layer" data-animation="fadeInUp">
+													<a href="events-left.html" class="theme_button color1">
+										           	Know More
+										</a>
+												</div> -->
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+
+
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+
+			</section>
+
+			<section style="background-color: #EAE9E4"
+				class="ls section_padding_top_10 top_offset_content columns_margin_top_20">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="teaser main_bg_color offset_icon hover_icon rounded text-center">
+								<div class="teaser_icon main_bg_color size_small round">
+									<i class="fa fa-building" aria-hidden="true"></i>
+								</div>
+								<h4 class="text-uppercase">
+									<a href="#">
+										Salt Mining
+									</a>
+								</h4>
+								<p> Saphire Traders are the pioneers in the field of mining in pakistan. bringing
+									quality salt to the world</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="teaser main_bg_color2 offset_icon hover_icon rounded text-center">
+								<div class="teaser_icon main_bg_color2 size_small round">
+									<i class="fa fa-archive" aria-hidden="true"></i>
+								</div>
+								<h4 class="text-uppercase">
+									<a href="#">
+										Packaging
+									</a>
+								</h4>
+								<p> Our Mined Products are Well packaged to be moved for delivery across the globe </p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="teaser main_bg_color3 offset_icon hover_icon rounded text-center">
+								<div class="teaser_icon main_bg_color3 size_small round">
+									<i class="fa fa-leaf" aria-hidden="true"></i>
+								</div>
+								<h4 class="text-uppercase">
+									<a href="#">
+										Export
+									</a>
+								</h4>
+								<p> Saphire Traders is a name, recognized by the world in all sorts of export.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="teaser main_bg_color4 offset_icon hover_icon rounded text-center">
+								<div class="teaser_icon main_bg_color4 size_small round">
+									<i class="fa fa-map-o" aria-hidden="true"></i>
+								</div>
+								<h4 class="text-uppercase">
+									<a href="#">
+										Delivery
+									</a>
+								</h4>
+								<p> Not only we have the highest Quality we also are known for our delivery system which
+									connects us throughout the world</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="aboutus"
+				class="ls page_about background_cover section_padding_top_130 section_padding_bottom_150">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h2 class="section_header">
+								Welcome!
+								<span class="small">to Saphire Traders</span>
+							</h2>
+							<p class="fontsize_20 highlight4"> Who we are and what we stand for</p>
+							We are working since 1985
+							In Pakistan rock salt is available in different color and formation. The most famous is pink
+							rock salt but it is also available in pure white and red in color. All are eatable equality
+							more than 80% sodium chloride concentration. There is also industrial salt available which
+							is used in making soda ash and offer chemical industries we Saphire traders deals in
+							different value added sizes and shapes. We can supply in the following sizes and shapes as
+							below
+							<p>
+							</p>
+
+							<!-- <p class="topmargin_50">
+					<a href="" class="theme_button color4">read more</a>
+				</p> -->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="products" class="ls section_padding_top_130 section_padding_bottom_130">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header">
+								<span class="small">Our Premium Salt</span>
+								What we're Offerin
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+
+
+						<div class="col-lg-6 col-sm-6">
+							<article class="vertical-item content-padding with_border color2_border rounded">
+								<div class="item-media top_rounded overflow_hidden">
+									<img src="images/pink-salt.jpg" alt="">
+									<div class="media-links">
+										<a href="#" class="abs-link"></a>
+									</div>
+								</div>
+								<div class="item-content">
+									<header class="content-justify bottommargin_25">
+										<div>
+											<h4 class="text-uppercase hover-color2 bottommargin_10">
+												<a href="#">
+													Pink Salt
+												</a>
+											</h4>
+
+										</div>
+										<div>
+											<p class="">
+												Pink salt is a Himalayan salt is rock salt. It mined from the Punjab one
+												of the largest region of Pakistan. It is usually used for cooking and it
+												also plays its part in food presentation & decorative lamps.
+
+											</p>
+
+
+										</div>
+									</header>
+									<!-- <div class="entry-content">
+										<a href="" class="theme_button color2 small_button min_width_button">Explore</a>
+									</div> -->
+								</div>
+							</article>
+						</div>
+
+
+						<div class="col-lg-6 col-sm-6">
+							<article class="vertical-item content-padding with_border color2_border rounded">
+								<div class="item-media top_rounded overflow_hidden">
+									<img src="images/whitenew1.jpg" alt="">
+									<div class="media-links">
+										<a href="#" class="abs-link"></a>
+									</div>
+								</div>
+								<div class="item-content">
+									<header class="content-justify bottommargin_25">
+										<div>
+											<h4 class="text-uppercase hover-color2 bottommargin_10">
+												<a href="#">
+													White Salt
+												</a>
+											</h4>
+
+										</div>
+										<div>
+											<p class="">
+												This Salt also mined from the mountain. In Pakistan khewra mines are
+												largest salt mines in the world. White salt looks very beautiful and its
+												taste very fresh and amazing.
+
+											</p>
+										</div>
+									</header>
+									<!-- <div class="entry-content">
+																<a href="" class="theme_button color2 small_button min_width_button">Explore</a>
+															</div> -->
+								</div>
+							</article>
+						</div>
+
+
+
+
+					</div>
+					<div class="container text-center  topmargin_50 ">
+						<a data-toggle="modal" href="#myModal" class="btn btn-primary"><span style="color: #fff;"> READ
+								MORE... <span></a>
+					</div>
+				</div>
+			</section>
+			<!-- section of image gallery of Saphire Traders -->
+			<section id="gallery" class="ls section_padding_top_130 section_padding_bottom_130">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header">
+								<span class="small">Our Salt Gallery</span>
+								Have a Salty look
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+						<!-- first column -->
+						<div class="columntwo">
+							<img src="images/salt-gallery/3-wide.jpg">
+							<img src="images/salt-gallery/7-long.jpeg">
+
+
+
+						</div>
+						<!-- second column -->
+						<div class="columntwo">
+							<img src="images/salt-gallery/8-long.jpeg">
+							<img src="images/salt-gallery/10-wide.jpeg">
+						</div>
+
+						<!-- third column -->
+						<div class="columntwo">
+							<img src="images/salt-gallery/9-wide.jpeg">
+							<img src="images/salt-gallery/9-long.jpeg">
+						</div>
+
+						<div class="columntwo">
+							<img src="images/salt-gallery/one.jpeg">
+							<img src="images/salt-gallery/wide34.jpeg">
+						</div>
+
+
+					</div>
+			</section>
+
+
+			<!-- image gallery ends here -->
+
+
+
+			<section id="contactus"
+				class="ds background_cover page_contact section_padding_top_130 section_padding_bottom_130">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header">
+								Connect with Us &
+								<span class="small highlight2">Let's grow together</span>
+							</h2>
+
+							<form class="contact-form row columns_margin_bottom_20" method="post" action="">
+								<div class="col-sm-6">
+									<div class="contact-form-name">
+										<label for="name">Full Name
+											<span class="required">*</span>
+										</label>
+										<input type="text" aria-required="true" size="30" value="" name="name" id="name"
+											class="form-control text-center" placeholder="Full Name*">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="contact-form-email">
+										<label for="email">Email address
+											<span class="required">*</span>
+										</label>
+										<input type="email" aria-required="true" size="30" value="" name="email"
+											id="email" class="form-control text-center" placeholder="Email Address*">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="contact-form-phone">
+										<label for="phone">Phone Number
+											<span class="required">*</span>
+										</label>
+										<input type="text" aria-required="true" size="30" value="" name="phone"
+											id="phone" class="form-control text-center" placeholder="Phone Number">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="contact-form-zip">
+										<label for="zip">ZIP Code
+											<span class="required">*</span>
+										</label>
+										<input type="number" aria-required="true" size="30" value="" name="zip" id="zip"
+											class="form-control text-center" placeholder="ZIP Code">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="contact-form-message">
+										<label for="message">Message</label>
+										<textarea aria-required="true" rows=4 cols="45" name="message" id="message"
+											class="form-control text-center" placeholder="Message"></textarea>
+									</div>
+								</div>
+
+								<div class="col-sm-12">
+
+									<div class="contact-form-submit topmargin_30">
+										<button type="submit" id="contact_form_submit" name="contact_submit"
+											class="theme_button color2">Say Hello</button>
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<footer
+				class="page_footer ds section_padding_top_50 section_padding_bottom_65 columns_padding_25 table_section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12 col-md-push-4 text-center">
+							<div class="widget widget_text">
+								<a href="" class="logo vertical_logo">
+									<h2>Saphire Traders</h2>
+								</a>
+
+								<p class="divider_30">Saphire Traders is one of the leading import export company in
+									Pakistan dealing with mining, delivery and packing services. Saphire Traders is
+									Pioneer to export Salt in foreign countries around the world.</p>
+
+								<p class="bottommargin_5 grey">
+									<i class="fa fa-map-marker highlight rightpadding_10" aria-hidden="true"></i> UM-43
+									zainab tower link road model town
+								</p>
+								<p class="bottommargin_5 grey">
+									<i class="fa fa-phone highlight rightpadding_10" aria-hidden="true"></i> 123-456-789
+								</p>
+								<p class="darklinks bottommargin_5">
+									<i class="fa fa-envelope highlight rightpadding_10" aria-hidden="true"></i> <a
+										href="#0">info@grapixpro.com</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-md-pull-4 text-center">
+							<div class="widget widget_text widget_media_margin">
+								<h3 class="widget-title">Explore</h3>
+								<ul class="list1 no-bullets no-top-border no-bottom-border greylinks">
+									<li>
+										<a href="#">Like us on Facebook</a>
+									</li>
+									<li>
+										<a href="#">Follow us on Twitter</a>
+									</li>
+									<li>
+										<a href="#">Conect with us on LinkedIn</a>
+									</li>
+									<!-- <li>
+										<a href="#">Watch us on Youtube</a>
+									</li> -->
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 text-center">
+							<div class="widget widget_mailchimp widget_media_margin">
+								<h3 class="widget-title">Newsletter</h3>
+								<form class="signup" action="" method="get">
+									<p>Enter your email address here always to be updated. We promise not to spam!</p>
+									<div class="form-group topmargin_25 bottommargin_30">
+										<label for="mailchimp" class="sr-only">Enter your email here</label>
+										<input name="email" type="email" id="mailchimp"
+											class="mailchimp_email form-control text-center"
+											placeholder="Email Address">
+									</div>
+									<div>
+										<button type="submit" class="theme_button color1">Subscribe</button>
+									</div>
+									<div class="response"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<section class="ds ms page_copyright section_padding_15">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="small-text grey">&copy; Copyright 2020. All Rights Reserved by GrapixPro.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+
+	<!-- modal for more information -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Himalayan Salt</h4>
+				</div>
+				<div class="modal-body">
+					<p>We are working since 1985 In Pakistan. Our rock salt is available in different color and
+						formations. The most famous is pink rock salt but it is also available in pure white & red color
+						as well. Edibale and the quality is more than 80% sodium chloride concentration. There is also
+						industrial salt available which is used in making soda ash and offer chemical industries we
+						Saphiretraders deals in different value added sizes and shapes.
+					</p>
+					<p> We can supply in the following sizes and shapes as Mentioned below </p>
+
+					<h4> Raw shape </h4>
+					<ul>
+						<li><b>Lumps:</b> 3kg to 10kg</li>
+						<li><b>Chunks: </b> 25kg to 50kg ( Pack in sack of 10kg to 50kg also washed rock salt available
+							)</li>
+						<li><b>Granual form:</b> 2mm, 3mm, 5mm, 8mm, 10mm</li>
+						<li><b>Grinded form:</b> Grade 16mm and 25mm</li>
+						<li><b>Table Salt: </b> 16mm Size</li>
+						<li><b>Crafted salt:</b> Decoration Purposes</li>
+						<br>
+					</ul>
+					<span>Size: 25mm size pack in seal of sacks of 10kg to 25kg. On order polished quality also
+						available</span>
+					<h4>Natural Lamps</h4>
+					<ul>
+						<li><b>Size:</b> 2kg to 12kg</li>
+						<li><b>Shapes:</b> Candle light, pare mid, Bowl Shape </li>
+						<li><b>Salt for Animal:<b> 4kg to 5kg</li>
+
+					</ul>
+
+					<br>
+					<h5>Note: All above mentioned we can supply for Local market and export Purposes,
+
+						Prices will Decided on the time of confirmed order</h5>
+
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- end of modal pop up -->
+
+
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+	<!-- <script src="js/switcher.js"></script> -->
+
+</body>
+
+
+</html>
